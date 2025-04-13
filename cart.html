@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🛒</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li> 
+                <li><a href="contact.html">Контакты</a></li>
+                <li><a href="men.html">Мужская</a></li>
+                <li><a href="kids.html">Детская</a></li>
+                <li><a href="women.html">Женская</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="cart-section">
+        <h2>Корзина</h2>
+        <div id="cart-items"></div>
+        <p id="total-price">Итого: 0 Сом</p>
+        <button>Remove</button>
+        <form id="checkout-form">
+            <label for="phone">Номер телефона:</label>
+            <input type="tel" id="phone" required placeholder="Введите номер телефона">
+
+            <label for="address">Адрес доставки:</label>
+            <input type="text" id="address" required placeholder="Введите адрес доставки">
+            <input type="email" id="email" placeholder="Введите email">
+            <input type="password" id="password" placeholder="Введите пароль">
+            <button id="login-button">Войти</button>
+            <button type="submit" id="checkout">Оформить заказ</button>
+        </form>
+    </section>
+    </section>
+    <footer>
+        <footer>
+            <p>&copy; 2025 Мой Магазин</p>
+            <a href="https://instagram.com/ТВОЙ_ИНСТАГРАМ" target="_blank">
+                <img src="https://i.pinimg.com/736x/f9/22/b4/f922b43d9efdb857ea6c1221a0843e41.jpg" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://wa.me/ТВОЙ_НОМЕР" target="_blank">
+                <img src="https://i.pinimg.com/736x/e6/85/55/e685555d3879dd2407d668086ee7208a.jpg" alt="WhatsApp" class="social-icon">
+            </a>
+            <a href="https://telegram.com/ТВОЙ_ТЕЛЕГРАММ" target="_blank">
+                <img src="https://i.pinimg.com/736x/6e/3e/2f/6e3e2fd90b8163557cc931f9c7aca3aa.jpg" alt="Telegram" class="social-icon">
+            </a>
+        </footer>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
